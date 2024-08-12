@@ -1,0 +1,454 @@
+
+  <p style="font-family:Verdana;font-size:16px;">Consider&nbsp;you are using a tsconfig.json file. The ts files are stored in a folder named ts. tsconfig.json is stored outside the ts folder.&nbsp;<br />
+Which compiler option is best suited to read the ts files from the folder while transpiling?</p>
+
+
+  <p style="font-family:Verdana;font-size:16px;">What will be the output for the following code?</p>
+
+<pre>
+<code>function fun(contact:number,name?:string,defaultName:string="Usopp",...restName:string[])
+{
+	    alert("defaultName has: "+defaultName);
+}
+fun(1234567891,undefined,"Luffy", "Zoro", "Nami", "Sanji");
+ 
+</code></pre>
+
+<p>&nbsp;</p>
+
+
+  <p style="font-family:Verdana;font-size:16px;">Choose an appropriate answer in order to execute the below code without any error:</p>
+
+<pre>
+<code>function fun(a){
+    alert("List: "+a);
+}
+
+fun("Sherlock", "Dr.Watson", "Inspector Lestrade");
+fun("Irene Adler");
+fun();
+</code></pre>
+
+<p>&nbsp;</p>
+
+
+  <p style="font-family:Verdana;font-size:16px;">Predict the output for the below code:</p>
+
+<pre>
+<code class="language-javascript">let list:any = ["One", "Two", "Three", "Four"];
+list.push(list.splice(-4, 2));
+alert(list);
+</code></pre>
+
+<p style="font-family:Verdana;font-size:16px;">&nbsp;</p>
+
+
+  <p style="font-family:Verdana;font-size:16px;">What will be the output for the following?</p>
+
+<pre>
+<code class="language-javascript">enum cost { Blue = 5000, Green = Blue, Red = Blue+2500, White = Green , Black=2000 };
+console.log(cost[5000]);
+</code></pre>
+
+<p>&nbsp;</p>
+
+
+  <p style="font-family:Verdana;font-size:16px;">&nbsp;Predict the output of the below code:</p>
+
+<pre>
+<code class="language-java">function changeNationality(data: string): string{
+	    nationality += " "+data;
+	    return nationality;
+}
+var nationality = "Indian";
+var nationality = changeNationality("Canadian");
+alert(nationality);
+</code></pre>
+
+<p>&nbsp;</p>
+
+
+  <p style="font-family:Verdana;font-size:16px;">Which line from the below code is erroneous in a type definition file?</p>
+
+<pre>
+<code class="language-javascript">1. declare class Author {
+
+2. declare function getBookspublished(): string;
+
+3. }
+
+4. declare function getAuthor():Author;
+</code></pre>
+
+<p>&nbsp;</p>
+
+
+  <p style="font-family:Verdana;font-size:16px;">Predict output for the below code:</p>
+
+<pre>
+<code class="language-javascript">const a: string[] =["Rajendra Prasad", "Sarvepalli Radhakrishnan"]; 
+function fun() {
+      setTimeout(() =&gt; {
+        var a = ["Abdul Kalam", "Pratibha Patil", "Pranab Mukherjee"];
+    }, 10);
+}
+fun();
+a.push("Ram Nath Kovind");
+alert(a);
+</code></pre>
+
+<p>&nbsp;</p>
+
+
+  <p style="font-family:Verdana;font-size:16px;">What will be the output&nbsp;for&nbsp;the below code?</p>
+
+<pre>
+<code class="language-javascript">let ceoList: string[]=[];
+ceoList["XYZ"] = "Tim";
+ceoList["ABC"] = "Tom";
+ceoList["TEST"] = "Joe"
+ceoList["TEXT"]="John"
+alert("Length : " + ceoList.length);
+alert("Ceo of XYZ: " + ceoList["XYZ"]);
+</code></pre>
+
+<p>&nbsp;</p>
+
+
+  <p style="font-family:Verdana;font-size:16px;">Predict the output for the below code:</p>
+
+<p style="font-family:Verdana;font-size:16px;">module.ts:</p>
+
+<pre>
+<code class="language-javascript">class Utility {
+setId(name: string, id: number) : string {
+	return name+" "+id;
+}
+	
+}
+export const identity:string="EMPLOYEE";
+export {Utility as mainUtility};
+</code></pre>
+
+<p style="font-family:Verdana;font-size:16px;">file.ts:</p>
+
+<pre>
+<code class="language-javascript">import * as mainutil from "./module";
+
+let util =new mainutil.mainUtility();
+let emp=util.setId("JA$",753886);
+
+console.log(`${emp} is an ${mainutil.identity}`);
+</code></pre>
+
+<p>&nbsp;</p>
+
+
+  <p style="font-family:Verdana;font-size:16px;">What will be the output for the below code?</p>
+
+<pre>
+<code class="language-javascript">var var1 = 20;
+function fun()
+{
+    var1 = 21;
+    var a = () =&gt; {var var1=40 };
+    a();
+
+}
+fun();
+alert(var1);
+</code></pre>
+
+<p>&nbsp;</p>
+
+
+  <p style="font-family:Verdana;font-size:16px;">Predict the output for the below code:</p>
+
+<pre>
+<code class="language-javascript">function fun(str: string):number{
+    return 42;
+}
+function fun(num: number): string{
+    return "hello! "+num;
+}
+
+let d: string = "hello!";
+var disp:number = fun(d);
+console.log(disp);
+</code></pre>
+
+<p>&nbsp;</p>
+
+
+  <p style="font-family:Verdana;font-size:16px;">Find error if any in the below code:</p>
+
+<pre>
+<code class="language-javascript">1.    class a{
+2.        parent: string = "From Parent";
+3.    }
+4.    interface b{
+5.        fromInterface: number;
+6.    }
+7.    class c implements b extends a     {
+8.        fromInterface = 20;
+9.        para = () =&gt; {
+10.            console.log(this.parent);
+11.        }
+12.    }
+13.    new c().para();
+</code></pre>
+
+<p>&nbsp;</p>
+
+
+  <p style="font-family:Verdana;font-size:16px;">Predict the output for the below code:</p>
+
+<pre>
+<code class="language-javascript">interface a
+{
+	a:string;
+	abstract fun(): string;
+
+}
+class b implements a{
+a:string;
+constructor()
+{
+this.a="Success!"
+}
+	fun()
+	{
+		return this.a;
+
+	}
+}
+let obj = new b;
+console.log(obj.fun());
+</code></pre>
+
+<p>&nbsp;</p>
+
+
+  <p style="font-family:Verdana;font-size:16px;">What will be the output for the below code?</p>
+
+<pre>
+<code class="language-javascript">class a
+{
+
+    fun(str: string):string
+{
+    return str+" from a";
+}
+
+}
+
+class b extends a
+{
+    fun(str: string): string{
+    super.fun(str);
+    return str+" from b";
+}
+}
+
+let obj = new b();
+var disp:string = obj.fun("Hello");
+alert(disp);
+</code></pre>
+
+<p>&nbsp;</p>
+
+
+  <p style="font-family:Verdana;font-size:16px;">Find the output for the below code:</p>
+
+<pre>
+<code class="language-javascript">function invoke(constructor:Function) {
+   var newconstructor : any = function (...args) {     
+     this.alterEgo="Bruce Wayne";
+     }	 
+ return newconstructor;
+}
+@invoke
+class Product {
+	public alterEgo: string;
+	constructor(data: string) {
+		this.alterEgo = data;
+	}
+}
+var p = new Product("Dark Knight");
+alert(`Product name is : ${p.alterEgo}`);
+</code></pre>
+
+<p>&nbsp;</p>
+
+
+  <p style="font-family:Verdana;font-size:16px;">What will be the output for the below code?</p>
+
+<pre>
+<code class="language-javascript">class A{
+printData&lt;T&gt;(data: T): T{
+    if (data == "Barry Allen")
+        alert("Data Received");
+return data;
+}
+}
+let obj = new A();
+let data:string=obj.printData&lt;string&gt;('Barry Allen');
+</code></pre>
+
+<p>&nbsp;</p>
+
+
+  <p style="font-family:Verdana;font-size:16px;">Which of the following line/lines will lead to compilation error/errors?</p>
+
+<pre>
+<code class="language-javascript">var a: [string, number];
+1.  a = ["Stephen Strange", null, "Tony Stark", 2, 6];
+2.	a = ["Stephen Strange", undefined, "Tony Stark", 2, 6];
+3.	a = [undefined,"Tony Stark", 2, "Stephen Strange"];
+4.	a = [null,null,4, "Tony Stark", 2, 6];
+</code></pre>
+
+<p>&nbsp;</p>
+
+
+  <p style="font-family:Verdana;font-size:16px;">Predict the output for the below code:</p>
+
+<pre>
+<code class="language-javascript">class Friends &lt;T&gt;{
+	characterList:Array&lt;T&gt;;
+addCharacter(newCharacterList:Array&lt;T&gt;):void{
+	this.characterList=newCharacterList;
+    alert(characterList);
+}
+
+}
+let show=new Friends&lt;string&gt;();
+let characterList:Array&lt;string&gt;=["Chandler","Monica","Joe","Rachel","Ross"];
+show.addCharacter(characterList);
+
+let show2=new Friends&lt;number&gt;();
+let seasons:Array&lt;number&gt;=[1,2,3,4,5,6,7,8,9,10];
+show2.addCharacter(seasons);
+</code></pre>
+
+<p>&nbsp;</p>
+
+
+  <p style="font-family:Verdana;font-size:16px;">Assume the below&nbsp;code is saved in a file &quot;a.ts&quot;. Which is the most appropriate option to be added to make the below code work?</p>
+
+<pre>
+<code class="language-javascript">class product
+{
+    prodId: number;
+    prodName: string;
+}
+
+namespace a{
+export let obj=new amazon()
+}
+
+obj.prodName = "Coffee Mug";
+</code></pre>
+
+<p>&nbsp;</p>
+
+
+  <p style="font-family:Verdana;font-size:16px;">Predict the output for the below code:</p>
+
+<pre>
+<code class="language-javascript">1.	interface a{
+2.	    var1: string;
+3.	}
+4.	interface b{
+5.	    var2: string;
+6.	}
+7.	function fun1(para1: a){
+8.	    alert("Inside fun1");
+9.	}
+10.	function fun2(para2: b){
+11.	    alert("Inside fun2");
+12.	}
+13.	var obj = { var1: "for a", var2: "for b" };
+14.	fun1(obj);
+15.	fun2(obj);
+</code></pre>
+
+<p>&nbsp;</p>
+
+
+  <p style="font-family:Verdana;font-size:16px;">Find which lines causes compilation error from the below code:</p>
+
+<pre>
+<code class="language-javascript">1.	class company{
+2.	    static empId:number=753800;
+3.	    private _eta: boolean;
+4.	    private _production: boolean;
+5.	    constructor(){
+6.	        this.empId++;
+7.	        this._eta = false;
+8.	        this._production = false;
+9.	    }
+10.	  }
+11.	var emp1=new company(); 
+12.	var emp1 = new company();
+13.	let emp2 = new company();
+14.	alert(emp2.empId);
+</code></pre>
+
+<p>&nbsp;</p>
+
+
+  <p style="font-family:Verdana;font-size:16px;">Predict the output for the below code:</p>
+
+<pre>
+<code class="language-javascript">const alterEgo = "Slade Wilson";
+function outerFunction()
+{
+     let alterEgo = "Wade Wilson";
+     setTimeout(
+         function(){
+             alert(alterEgo);
+         },2000);
+}
+outerFunction();
+</code></pre>
+
+<p>&nbsp;</p>
+
+
+  <p style="font-family:Verdana;font-size:16px;">What will be the most appropriate output for the following?</p>
+
+<pre>
+<code class="language-javascript">enum defaultPrice {Single=1000,Double=2000,Triple=3000 }
+enum cost { Red = defaultPrice.Single, Green=Blue, Blue = defaultPrice.Double+defaultPrice.Triple, White=defaultPrice.Triple };
+var price=cost.Blue;
+</code></pre>
+
+<p>&nbsp;</p>
+
+
+  <p style="font-family:Verdana;font-size:16px;">Predict the output for the below code:</p>
+
+<pre>
+<code class="language-javascript">1.     interface a
+2.       {
+3.           name: string;
+4.       }
+5.    interface b
+6.       {
+7.           age: number;
+8.       }
+9.     interface c extends a,b
+10.     {
+11.          cash: number;
+12.     }
+13.    class ab implements a,b
+14.     {
+15.         cash = 2000;
+16.         name = "Barry";
+17.         age = 20;
+18.         public a = () =&gt; alert(this.cash +" was the amount "+this.name+" had when he was "+ this.age);
+</code></pre>
+
+<p>&nbsp;</p>
+

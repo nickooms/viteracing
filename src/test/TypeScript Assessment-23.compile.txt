@@ -1,0 +1,15 @@
+test/TypeScript Assessment-23.ts(1,15): error TS1005: '{' expected.
+test/TypeScript Assessment-23.ts(2,24): error TS1005: ',' expected.
+test/TypeScript Assessment-23.ts(2,26): error TS1005: ',' expected.
+test/TypeScript Assessment-23.ts(2,27): error TS1109: Expression expected.
+test/TypeScript Assessment-23.ts(3,30): error TS1005: ',' expected.
+test/TypeScript Assessment-23.ts(3,39): error TS1005: ')' expected.
+test/TypeScript Assessment-23.ts(3,42): error TS1109: Expression expected.
+test/TypeScript Assessment-23.ts(3,43): error TS1128: Declaration or statement expected.
+test/TypeScript Assessment-23.ts(4,6): error TS1005: ':' expected.
+test/TypeScript Assessment-23.ts(4,37): error TS1005: ',' expected.
+test/TypeScript Assessment-23.ts(5,12): error TS1005: ',' expected.
+test/TypeScript Assessment-23.ts(5,31): error TS1005: ',' expected.
+test/TypeScript Assessment-23.ts(8,1): error TS1128: Declaration or statement expected.
+test/TypeScript Assessment-23.ts(9,33): error TS1109: Expression expected.
+test/TypeScript Assessment-23.ts(13,34): error TS1109: Expression expected.

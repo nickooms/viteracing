@@ -1,0 +1,2 @@
+test/TypeScript Assessment-20.ts(8,20): error TS2304: Cannot find name 'amazon'.
+test/TypeScript Assessment-20.ts(11,1): error TS2304: Cannot find name 'obj'.

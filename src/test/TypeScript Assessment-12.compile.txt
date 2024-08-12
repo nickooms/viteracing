@@ -1,0 +1,3 @@
+test/TypeScript Assessment-12.ts(3,4): error TS1005: ';' expected.
+test/TypeScript Assessment-12.ts(5,4): error TS1128: Declaration or statement expected.
+test/TypeScript Assessment-12.ts(7,4): error TS1005: ';' expected.

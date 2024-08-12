@@ -1,0 +1,2 @@
+test/TypeScript Assessment-13.ts(6,15): error TS2576: Property 'empId' does not exist on type 'company'. Did you mean to access the static member 'company.empId' instead?
+test/TypeScript Assessment-13.ts(14,19): error TS2576: Property 'empId' does not exist on type 'company'. Did you mean to access the static member 'company.empId' instead?

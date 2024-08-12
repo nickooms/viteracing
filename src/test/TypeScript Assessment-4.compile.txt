@@ -1,0 +1,4 @@
+test/TypeScript Assessment-4.ts(2,5): error TS1005: ';' expected.
+test/TypeScript Assessment-4.ts(3,4): error TS1005: ';' expected.
+test/TypeScript Assessment-4.ts(4,4): error TS1005: ';' expected.
+test/TypeScript Assessment-4.ts(5,4): error TS1005: ';' expected.

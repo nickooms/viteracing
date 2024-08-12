@@ -1,8 +1,0 @@
-test/TypeScript Assessment-22.ts(2,1): error TS1434: Unexpected keyword or identifier.
-test/TypeScript Assessment-22.ts(2,10): error TS1068: Unexpected token. A constructor, method, accessor, or property was expected.
-test/TypeScript Assessment-22.ts(2,21): error TS1005: ')' expected.
-test/TypeScript Assessment-22.ts(2,23): error TS1434: Unexpected keyword or identifier.
-test/TypeScript Assessment-22.ts(2,24): error TS1128: Declaration or statement expected.
-test/TypeScript Assessment-22.ts(2,25): error TS1128: Declaration or statement expected.
-test/TypeScript Assessment-22.ts(2,27): error TS1434: Unexpected keyword or identifier.
-test/TypeScript Assessment-22.ts(7,1): error TS1128: Declaration or statement expected.

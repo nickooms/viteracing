@@ -1,2 +1,0 @@
-Inside fun1
-Inside fun2

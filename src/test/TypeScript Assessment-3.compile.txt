@@ -1,1 +1,0 @@
-test/TypeScript Assessment-3.ts(2,46): error TS2651: A member initializer in a enum declaration cannot reference members declared after it, including members defined in other enums.

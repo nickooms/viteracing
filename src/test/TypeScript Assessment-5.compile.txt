@@ -1,2 +1,0 @@
-test/TypeScript Assessment-5.ts(1,10): error TS2393: Duplicate function implementation.
-test/TypeScript Assessment-5.ts(4,10): error TS2393: Duplicate function implementation.

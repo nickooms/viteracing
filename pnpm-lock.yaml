@@ -27,6 +27,9 @@ importers:
         specifier: ^0.167.1
         version: 0.167.1
     devDependencies:
+      '@types/geojson':
+        specifier: ^7946.0.14
+        version: 7946.0.14
       '@types/react':
         specifier: ^18.3.3
         version: 18.3.3
@@ -535,6 +538,9 @@ packages:
 
   '@types/estree@1.0.5':
     resolution: {integrity: sha512-/kYRxGDLWzHOB7q+wtSUQlFrtcdUccpfy+X+9iMBpHK8QLLhx2wIPYuS5DYtR9Wa/YlZAbIovy7qVdB1Aq6Lyw==}
+
+  '@types/geojson@7946.0.14':
+    resolution: {integrity: sha512-WCfD5Ht3ZesJUsONdhvm84dmzWOiOzOAqOncN0++w0lBw1o8OuDNJF2McvvCef/yBqb/HYRahp1BYtODFQ8bRg==, tarball: https://infyartifactory.ad.infosys.com:443/artifactory/api/npm/npm/@types/geojson/-/geojson-7946.0.14.tgz}
 
   '@types/offscreencanvas@2019.7.3':
     resolution: {integrity: sha512-ieXiYmgSRXUDeOntE1InxjWyvEelZGP63M+cGuquuRLuIKKT1osnkXjxev9B7d1nXSug5vpunx+gNlbVxMlC9A==}
@@ -1145,7 +1151,7 @@ packages:
     engines: {node: '>= 0.8.0'}
 
   prettier@3.3.3:
-    resolution: {integrity: sha512-i2tDNA0O5IrMO757lfrdQZCc2jPNDVntV0m/+4whiDfWaTKfMNgR7Qz0NAeGz/nRqF4m5/6CLzbP4/liHt12Ew==, tarball: https://infyartifactory.ad.infosys.com:443/artifactory/api/npm/npm/prettier/-/prettier-3.3.3.tgz}
+    resolution: {integrity: sha512-i2tDNA0O5IrMO757lfrdQZCc2jPNDVntV0m/+4whiDfWaTKfMNgR7Qz0NAeGz/nRqF4m5/6CLzbP4/liHt12Ew==}
     engines: {node: '>=14'}
     hasBin: true
 
@@ -1875,6 +1881,8 @@ snapshots:
   '@types/draco3d@1.4.10': {}
 
   '@types/estree@1.0.5': {}
+
+  '@types/geojson@7946.0.14': {}
 
   '@types/offscreencanvas@2019.7.3': {}
 
